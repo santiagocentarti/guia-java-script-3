@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+     <!-- 
+        Santiago Centarti // San Jose 6to B // santiagocentarti@colegiodesanjose.edu.ar
+        Ejercicio 27:
+    Realizar un programa que pida cargar una fecha cualquiera, luego verificar si dicha
+    fecha corresponde a Navidad (se debe cargar por separado el día, el mes y el año).
+     -->
+    <script>
+        let dia = parseInt(prompt("Ingrese el dia: "))
+        let mes = parseInt(prompt("Ingrese el mes: "))
+        let año = parseInt(prompt("Ingrese el año: "))
+        if (dia == 25 && mes == 12){
+            document.write("La fecha ingresada corresponde a navidad")
+        } 
+        else {
+            document.write("La fecha ingresada no corresponde a navidad")
+        }
+    </script>
+</body>
+</html>
